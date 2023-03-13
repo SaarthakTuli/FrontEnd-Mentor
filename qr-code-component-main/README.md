@@ -15,11 +15,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Desktop View
 
-![](./design/final/desktop-view.jpg)
+!["desktop_view"](./design/final/desktop-view.jpg)
 
 ### Mobile View
-
-img[](./design/final/mobile-view.jpg) {width: 200px}
+<img alt="mobile_view" src="./design/final/mobile-view.jpg" width="350px" />
 
 ## Links
 
