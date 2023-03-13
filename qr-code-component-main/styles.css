@@ -37,11 +37,11 @@ h1 {
   color: var(--dark-blue);
 }
 
-h3 {
+p {
   font-size: 15px;
   font-weight: 400;
   padding-bottom: 1rem;
-  color: var(--light-gray);
+  color: var(--grayish-blue);
 }
 
 @media only screen and (max-width: 400px) {
@@ -57,7 +57,7 @@ h3 {
     font-size: 20px;
   }
 
-  h3 {
+  p {
     font-size: 14px;
   }
 }
