@@ -1,8 +1,17 @@
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { Home, Crew, Destination, Technology } from "./components";
+
 const App = () => {
   return (
-    <div>
-      <p className="text-3xl font-bold">He</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" replace />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/destination" element={<Destination />} />
+        <Route path="/crew" element={<Crew />} />
+        <Route path="technology" element={<Technology />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
