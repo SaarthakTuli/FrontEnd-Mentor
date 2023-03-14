@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+* {
+  font-family: "Bellefair", serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
